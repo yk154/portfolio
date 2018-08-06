@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang='en'>
+	<head>
+		<meta charset='utf-8'>
+		<meta name="author" content="Amy Kim">
+		<link rel="stylesheet" href="./style.css">
+		<link href="https://fonts.googleapis.com/css?family=Encode+Sans+Condensed" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Poor+Story" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+		<link type="text/css" rel="stylesheet" 
+		href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" 
+		href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+		<script src="generator.js" async></script>
+		<title>Amy Kim</title>
+	</head>
+
+	<body>
+		<header>
+			<div class="navbar transparent navbar-inverse navbar-fixed-top">
+				<nav class="navbar-inner">
+					<a href="#" class="navbar-left"><img src="./src/amy.png" alt="logo"></a>
+					<ul class="navbar-right list-inline">
+						<li class="list-inline-item">
+							<a href="#"><i class="fa fa-home" aria-hidden="true"></i>Home</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#go_about"><i class="fa fa-info-circle"></i>About</a>
+						</li>
+						<li class="list-inline-item">
+							<a href="#go_proj"><i class=" fa fa-laptop" aria-hidden="true"></i>Projects</a>
+						</li>
+					</ul>
+				</nav>
+			</div>
+			
+			<img class= "bg" src="./src/yeon.jpg" alt= "bg">
+			
+		</header>
+		
+		
+		<section class = "about">
+			<a id = "go_about"></a>
+			<h1>Welcome to my site!</h1>
+			<div class ="fortune">
+				<img id="cookie" src="src/cookie.jpg" alt="message">
+				<p>Hello, I'm Amy Kim from Seoul, South Korea.<br> I am class of 2020 at Duke University with majoring in Computer Science and Marketing and Management Certificate.</p>
+			</div>
+			<h4 id="break" onclick="generate()">Open your cookie!</h4>
+		</section>
+			
+		<section class ="projects">
+			<h1>Projects</h1>
+			<a id="go_proj"></a>
+			<div class="row">
+				<div class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<img class = "projects_bg" id ="project_1" src="src/kello.png" alt="p1">
+						<div class="caption text-center">
+							<h3>Kello</h3>
+							<p>Will be posted soon</p>
+							<p><a href="https://duke-compsci290-spring2018.github.io/assignments-portfolio-yk154/trello/index.html" class="btn btn-danger" role="button">Link</a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<img class = "projects_bg" id ="project_2" src="src/Tour_Duke.png" alt="p2">
+						<div class="caption text-center">
+							<h3>Tour@Duke</h3>
+							<p>Will be posted soon</p>
+							<p><a href="https://duke-compsci290-spring2018.github.io/final-project-team-35/#/" class="btn btn-info" role="button">Link</a>
+						</div>
+					</div>
+				</div>
+				
+				<div class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<img class = "projects_bg" id ="project_3" src="src/tweeter.png" alt="p3">
+						<div class="caption text-center">
+							<h3>Tweeter</h3>
+							<p>Tweeter clone</p>
+							<p><a href="#" class="btn btn-primary" role="button">Link</a>
+						</div>
+					</div>
+				</div>
+				
+				
+			</div>
+		</section>
+				
+		<footer>
+			<div class="container">
+				<ul class = "list-inline">
+					<li><i class="fa fa-graduation-cap"></i> Duke University</li>
+					<li><i class="fa fa-envelope"></i> Email: yk154@duke.edu</li>
+					<li><i class="fa fa-mobile"></i> Phone: 919-564-8686</li>
+					<li id="copyright">&copy;Amy Kim</li>
+        </ul>
+			</div>
+		</footer>
+		
+	</body>
+</html>

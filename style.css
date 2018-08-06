@@ -1,0 +1,113 @@
+html {
+  margin: 0;
+  padding: 0;
+}
+
+header .navbar {
+	background-color: #fff;
+	border: none;
+	margin-right: 3.5%;
+}
+
+.bg {
+	width: 80%;
+	height: 560px;
+	margin: 10%;
+	margin-top: 6%;
+	margin-bottom: 4%;
+}
+
+.navbar-left img{
+	margin-top: 13px;
+}
+
+section{
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-bottom: 4%;
+}
+
+
+.fortune {
+	display: flex;
+	float: left;
+}
+
+.about h4{
+	margin-left: 4%;
+	font-family: 'Poor Story', cursive;
+	cursor: pointer;
+}
+
+.about p{
+	margin-left: 7%;
+	margin-top: 5%;
+	font-size: 20px;
+	font-family: 'PT Sans', sans-serif;
+}
+
+
+section h1{
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#today{
+	margin-left: 5.7%;
+}
+
+#cookie {
+	width:200px;
+	height: 200px;
+	border-radius: 50%;
+}
+
+.navbar-inner img{
+	width: 60%;
+	margin-left: 20px;
+}
+
+ul {
+	padding: 2%;
+}
+
+nav li {
+	display: inline-block;
+	font-size: 18px;
+	vertical-align: middle;
+	margin-right: 10px;
+	margin-left: 10px;
+}
+
+.row {
+	margin-top: 5%;
+}
+
+.row h3 {
+	font-family: 'PT Sans', sans-serif;
+}
+
+header .fa{
+	width: 25px;
+	height: 25px;
+	margin-right: 10px;
+	text-align: center;
+	line-height: 25px;
+	font-size: 100%;
+	letter-spacing: 0;
+}
+
+nav a {
+	color: black;
+	font-family: 'Encode Sans Condensed', sans-serif;
+	letter-spacing: 4px;
+}
+
+footer {
+	font-family: 'PT Sans', sans-serif;
+	padding: 5px;
+}
+
+#copyright{
+	float: right;
+}
