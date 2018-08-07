@@ -45,6 +45,12 @@ section{
 	cursor: pointer;
 }
 
+#my_intro {
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+	padding: 10px;
+}
+
 .about p{
 	margin-left: 7%;
 	margin-top: 5%;
