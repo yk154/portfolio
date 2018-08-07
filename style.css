@@ -7,13 +7,18 @@ header .navbar {
 	background-color: #fff;
 	border: none;
 	margin-right: 3.5%;
+	height: 4%;
+}
+
+#beginning {
+	margin-top: 8%;
 }
 
 .bg {
-	width: 80%;
-	height: 560px;
-	margin: 10%;
-	margin-top: 6%;
+	width: 75%;
+	height: 500px;
+	margin: 12.5%;
+	margin-top: 0%;
 	margin-bottom: 2%;
 }
 
@@ -31,6 +36,7 @@ section{
 .fortune {
 	display: flex;
 	float: left;
+	margin-top: 3px;
 }
 
 .about h4{
@@ -46,6 +52,10 @@ section{
 	font-family: 'PT Sans', sans-serif;
 }
 
+#beginning h1 {
+	text-align: center;
+	font-family: 'Quicksand', sans-serif;
+}
 
 section h1{
 	text-align: center;
