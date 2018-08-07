@@ -34,13 +34,16 @@ section{
 
 
 .fortune {
+/*
 	display: flex;
 	float: left;
-	margin-top: 3px;
+*/
+	margin-top: 3%;
+	text-align: center;
 }
 
 .about h4{
-	margin-left: 4%;
+	
 	font-family: 'Poor Story', cursive;
 	cursor: pointer;
 }
@@ -48,11 +51,11 @@ section{
 #my_intro {
 	text-align: center;
 	font-family: 'Quicksand', sans-serif;
-	padding: 10px;
+/*	padding: 10px;*/
 }
 
 .about p{
-	margin-left: 7%;
+/*	margin-left: 7%;*/
 	margin-top: 5%;
 	font-size: 20px;
 	font-family: 'PT Sans', sans-serif;
