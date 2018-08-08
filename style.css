@@ -48,7 +48,7 @@ section{
 	cursor: pointer;
 }
 
-#my_intro {
+.my_intro {
 	text-align: center;
 	font-family: 'Quicksand', sans-serif;
 /*	padding: 10px;*/
