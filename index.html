@@ -49,11 +49,13 @@
 		<section class = "about" id = "go_about">
 <!--		<hr>-->
 				<p class = "my_intro">Hello, I'm Amy Kim from Seoul, South Korea. I am class of 2020 at Duke University <br> majoring in Computer Science and Marketing and Management Certificate.</p>
+			
 			<div class ="fortune">
-				<img id="cookie" src="src/cookie.jpg" alt="message">
+				<img id="cookie" src="src/cookie.jpg" onclick="generate()" alt="message">
 				<h4 id="break" onclick="generate()">Open your cookie!</h4>
 			</div>
-				<p class = "my_intro"> I took CS290 Web Development course last semester. <br>If you want to check out my projects from this course, visit the <a href="https://duke-compsci290-spring2018.github.io/assignments-portfolio-yk154/"> link </a> </p>
+			
+			<p class = "my_intro"> I took CS290 Web Development course last semester. <br>If you want to check out my projects from this course, visit the <a href="https://duke-compsci290-spring2018.github.io/assignments-portfolio-yk154/"> link </a>.
 		</section>
 			
 		<section class ="projects">
@@ -62,16 +64,22 @@
 			<hr>
 			<a id="go_proj"></a>
 			<div class="row">
+				
 				<div class="col-sm-6 col-md-4">
 					<div class="thumbnail">
-						<img class = "projects_bg" id ="project_1" src="src/kello.png" alt="p1">
+						<img class = "projects_bg" id ="project_1" src="src/cookBook.png" alt="p1">
 						<div class="caption text-center">
-							<h3>Kello</h3>
-							<p>Project Manager website!<br> Boards are organized into the lists of cards <br> that can be easily moved around.<br> Using a combination of front end web techniques, i.e., Flexbox, Bootstrap, Vue.js, and Firebase.</p>
-							<p><a href="https://duke-compsci290-spring2018.github.io/assignments-portfolio-yk154/trello/index.html" class="btn btn-danger" role="button">Link</a>
+							<h3>CookBook</h3>
+							<p>This application is for people to share <br> recipes and write reviews of recipes. <br> Used Full Stack web techniques, i.e, React.js, GraphQL, Prisma and Apollo Client.
+								<br> - sever is down now, sorry.</p>
+							<p>
+								<a href="https://github.com/CookingApp/cookingapp" class="btn btn-danger" role="button">Source Code</a>
+<!--								<a class="btn btn-info" role="button">Link (currently not available)</a>-->
+							</p>
 						</div>
 					</div>
 				</div>
+				
 				
 				<div class="col-sm-6 col-md-4">
 					<div class="thumbnail">
@@ -80,6 +88,7 @@
 							<h3>Tour@Duke</h3>
 							<p>This application offers information about famous <br>and hidden attractions at Duke and automatically plans out possible visiting schedules based on the preference of individual preferences. <br>Uses Vue.js and Firebase </p>
 							<p><a href="https://duke-compsci290-spring2018.github.io/final-project-team-35/#/" class="btn btn-info" role="button">Link</a>
+							</p>
 						</div>
 					</div>
 				</div>
@@ -90,10 +99,27 @@
 						<div class="caption text-center">
 							<h3>Tweeter</h3>
 							<p>Twitter clone!<br> A Combination of Backend and Front end web techniques. Backend developed with GraphQL and Apollo Client, Frontend developed with React.js<br> - sever is down now, sorry.</p>
-							<p><a href="#" class="btn btn-primary" role="button">Link (currently not available)</a>
+							<p>
+								<a href="https://github.com/yk154/twitter_tweeter" class="btn btn-primary" role="button">Source Code</a>
+<!--								<a class="btn btn-info" role="button">Link (currently not available)</a>-->
+							</p>
 						</div>
 					</div>
 				</div>
+				
+				
+				<div class="col-sm-6 col-md-4">
+					<div class="thumbnail">
+						<img class = "projects_bg" id ="project_4" src="src/kello.png" alt="p4">
+						<div class="caption text-center">
+							<h3>Kello</h3>
+							<p>Project Manager website!<br> Boards are organized into the lists of cards <br> that can be easily moved around.<br> Using a combination of front end web techniques, i.e., Flexbox, Bootstrap, Vue.js, and Firebase.</p>
+							<p><a href="https://duke-compsci290-spring2018.github.io/assignments-portfolio-yk154/trello/index.html" class="btn btn-danger" role="button">Link</a>
+							</p>
+						</div>
+					</div>
+				</div>
+
 				
 				
 			</div>
@@ -105,6 +131,7 @@
 					<li><i class="fa fa-graduation-cap"></i> Duke University</li>
 					<li><i class="fa fa-envelope"></i> Email: yk154@duke.edu</li>
 					<li><i class="fa fa-mobile"></i> Phone: 919-564-8686</li>
+					<li><a href = "https://www.linkedin.com/in/amy-yeon-woo-kim/"><i class="fa fa-linkedin"></i> amy-yeon-woo-kim/</a></li>
 					<li id="copyright">&copy;Amy Kim</li>
         </ul>
 			</div>
