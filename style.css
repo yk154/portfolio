@@ -48,6 +48,10 @@ section{
 	cursor: pointer;
 }
 
+.about img{
+	cursor: pointer;
+}
+
 .my_intro {
 	text-align: center;
 	font-family: 'Quicksand', sans-serif;
