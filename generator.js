@@ -1,6 +1,6 @@
 //Javascript to generate Fortune Cookie messages
 //Created by Amy Kim
-
+//will be updated
 document.getElementById("break").onclick = function() {generate();};
 
 var img = document.getElementById("cookie");
